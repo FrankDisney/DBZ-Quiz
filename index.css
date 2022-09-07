@@ -1,0 +1,122 @@
+body {
+    background-color: lightblue;
+    color: black;
+    font-size: 35px;
+    font-family: Lalezar, sans-serif;
+    
+  }
+  
+  h1 {
+    background-color: black;
+    color: white;
+  }
+  
+  div {
+    background-color: lightblue;
+    color: black;
+    height: 500vh;
+  }
+  
+
+
+
+<!-- NAV BAR -->
+body {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    font-family: Lalezar, sans-serif;
+    font-size: 45px;
+    background-color: black;
+
+}
+
+* {
+    margin: 0 auto;
+} 
+
+#wrap {
+    height: 150px;
+    background: url(./image0.jpeg) no-repeat center;
+    text-align: center;
+    background-color: black;
+
+}
+
+#nav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    background-color: black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#nav li {
+    display: inline-block;
+    text-align: center;
+}
+
+#nav li a {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: 70;
+    text-align: center;
+    color: white;
+    border-right: 1px solid #ccc;
+    font-family: Lalezar, sans-serif;
+    font-size: 33px;
+}
+
+#nav li a:hover {
+    color: orange;
+    text-align: center;
+    background-color: #fff;
+}
+
+/* End navigation bar styling. */
+#content {
+    padding: 0 25px 25px;
+    width: 500x;
+    height: 20px;
+    background-color: lightblue;
+}
+
+<!-- NAV BAR END -->
+
+
+<!-- RADIO BUTTON START -->
+input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #ffa500;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid white;
+}
+<!-- RADIO BUTTON END ==>
